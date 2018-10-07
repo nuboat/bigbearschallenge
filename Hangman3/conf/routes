@@ -1,0 +1,2 @@
+POST  /hangman             controllers.hangman.Post.run
+POST  /hangman/:id         controllers.hangman.Get.run(id)
