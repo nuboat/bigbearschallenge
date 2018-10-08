@@ -10,5 +10,7 @@ routesGenerator := InjectedRoutesGenerator
 
 libraryDependencies ++= Seq(
   guice
-  , "org.scalatestplus.play" %% "scalatestplus-play" % "3.0.0" % Test
+  , "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.9.7"
+  , "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2" % Test
+
 )
